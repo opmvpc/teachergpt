@@ -17,4 +17,4 @@ jobs:
       - name: Set Creds
         run: git config user.name "opmvpc" && git config user.email "thibsix@outlook.be"
       - name: Deploy
-        run: sh deploy.sh
+        run: npm run deploy

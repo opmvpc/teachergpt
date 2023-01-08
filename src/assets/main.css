@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layout {
+  background: radial-gradient(ellipse at top, rgb(52 211 153), transparent),
+    radial-gradient(ellipse at bottom, rgb(56 189 248), black);
+}
+
+.router-link-active {
+  @apply text-sky-200;
+}
+
+h1 {
+  @apply uppercase font-bold text-sky-400 text-2xl tracking-widest mb-4;
+}
+
+h2 {
+  @apply uppercase font-bold text-sky-300 text-xl tracking-widest mb-3;
+}
+
+h3 {
+  @apply uppercase font-bold text-sky-200 text-lg tracking-widest mb-2;
+}

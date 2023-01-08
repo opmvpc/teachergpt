@@ -7,8 +7,12 @@
     radial-gradient(ellipse at bottom, rgb(56 189 248), black);
 }
 
-.router-link-active {
-  @apply text-sky-200;
+nav a {
+  @apply hover:text-sky-300 transition-all;
+}
+
+nav a.router-link-active {
+  @apply text-sky-400 text-lg;
 }
 
 h1 {

@@ -24,6 +24,7 @@ const sendPrompt = async () => {
     error.value = "Le prompt ne peut pas être vide.";
     return;
   }
+  output.value = "";
   isLoading.value = true;
   const response = await Gpt.cours(prompt.value);
   if (response?.error) {

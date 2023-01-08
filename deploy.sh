@@ -15,6 +15,7 @@ echo > .nojekyll
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
+git config user.name "opmvpc" && git config user.email "thibsix@outlook.be"
 git init
 git checkout -B main
 git add -A

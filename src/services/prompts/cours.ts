@@ -11,7 +11,7 @@ documentations: (https://vuepress.vuejs.org/guide/markdown.html#custom-container
 GPT doit lire attentivement les "INSTRUCTIONS:" et y répondre en respectant le persona, le style et le format indiqués. Sa réponse doit être placée après "OUTPUT: ->".
 ======
 INSTRUCTIONS:
-Ècris l'introduction du chapitre sur les structures de contrôle.
+Écris l'introduction du chapitre sur les structures de contrôle.
 OUTPUT:
 ->
 # Les structures de contrôle
@@ -33,7 +33,7 @@ Voici une liste des principales structures de contrôle en PHP :
 1. \`foreach\` : permet de parcourir les éléments d'un tableau ou d'un objet et de les traiter un à un.
 ======
 INSTRUCTIONS:
-Ècris l'introduction du sous-chapitre sur la manipulation de chaînes de caractères.
+Écris l'introduction du sous-chapitre sur la manipulation de chaînes de caractères.
 OUTPUT:
 ->
 ## Manipulation de chaînes

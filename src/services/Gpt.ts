@@ -1,6 +1,7 @@
 import { Configuration, OpenAIApi } from "openai";
 import { LocalStorage } from "./LocalStorage";
 import { promptCours } from "./prompts/cours";
+import { promptPresentations } from "./prompts/presentations";
 
 export interface Response {
   result?: string;
@@ -42,6 +43,12 @@ export class Gpt {
 
   static async cours(prompt: string): Promise<Response | undefined> {
     const finalPrompt = promptCours(prompt);
+    return await Gpt.completion(finalPrompt);
+  }
+
+  static async presentations(prompt: string): Promise<Response | undefined> {
+    const finalPrompt = promptPresentations(prompt);
+
     return await Gpt.completion(finalPrompt);
   }
 }

@@ -11,7 +11,7 @@ import { RouterLink, RouterView } from "vue-router";
         class="flex space-x-8 items-center uppercase font-bold text-sky-200 tracking-widest"
       >
         <RouterLink to="/">Cours</RouterLink>
-        <RouterLink to="/presentation">Présentation</RouterLink>
+        <RouterLink to="/presentations">Présentations</RouterLink>
         <RouterLink to="/exercices">Exercices</RouterLink>
         <RouterLink to="/preferences">Préférences</RouterLink>
       </nav>

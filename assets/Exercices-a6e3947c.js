@@ -1,0 +1,1 @@
+import{d as t,c as s,a as e,A as o,o as c,b as n,B as l,e as a}from"./index-3019da62.js";const _=a("h1",null,"Exercices",-1),r=a("h2",null,"wip",-1),f=t({__name:"Exercices",setup(u){return(p,d)=>(c(),s(o,null,{default:e(()=>[n(l,null,{default:e(()=>[_,r]),_:1})]),_:1}))}});export{f as default};
